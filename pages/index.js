@@ -9,13 +9,15 @@ const index = ({products}) => {
   return (
   <>
     <HeroBanner/>
+    <section>
       <div className="products-container">
         {
           products.map((product) =>
           <Product product={product} />
         )
         }
-    </div>
+      </div>
+    </section>
   </>
   )
 }
