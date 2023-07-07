@@ -4,10 +4,8 @@ import { client, urlFor } from '@/lib/client'
 import { Product } from '@/components'
 
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-import { AutoScroll } from '@splidejs/splide-extension-auto-scroll';
 import '@splidejs/react-splide/css';
 
-import { isMobile } from 'react-device-detect';
 
 const ProductDetails = ({ product, products }) => {
   const { images, name, details, price } = product
