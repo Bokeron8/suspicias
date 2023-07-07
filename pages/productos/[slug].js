@@ -6,7 +6,7 @@ import { Product } from '@/components'
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 
-
+//Esta es la pagina de cada uno de los productos individuales
 const ProductDetails = ({ product, products }) => {
   const { images, name, details, price } = product
   

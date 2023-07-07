@@ -1,6 +1,6 @@
 import React from 'react';
 
-
+//Esta va a ser la pagina donde van a estar todos los productos y los vamos a poder filtrar
 const index = () => {
   return (
   <>
