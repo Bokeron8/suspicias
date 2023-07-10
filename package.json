@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@babel/core": "^7.17.9",
+    "@mercadopago/sdk-react": "^0.0.12",
     "@sanity/image-url": "^1.0.2",
     "@splidejs/react-splide": "^0.7.12",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "mercadopago": "^1.5.16",
     "next": "13.4.4",
     "next-sanity": "^4.3.3",
     "next-sanity-image": "^6.0.0",
